@@ -39,7 +39,7 @@ socket.on('NGUOI_DUNG_TON_TAI', () => {
 
 function openStream(){
     const config = {
-        audio: false,
+        audio: true,
         video: true
     };
 
